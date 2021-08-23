@@ -424,26 +424,28 @@ body, * {
         display: none;
     }
     .company-users {
-        margin: 0 auto;
+        margin: 0 26.14px 0 22px;
     }
-    .container_company-users {
+    /* .container_company-users {
         justify-content: space-around;
-    }
+    } */
     .container_company-users img {
         margin: 0;
     }
     .container_company-users img:nth-of-type(1) {
         width: 51.26px;
         height: 16.01px;
+        margin-right: 36.75px;
     }
     .container_company-users img:nth-of-type(2) {
         width: 48px;
-
+        margin-right: 36.63px;
         height: 13.71px;
     }
     .container_company-users img:nth-of-type(3) {
         width: 48px;
         height: 16px;
+        margin-right: 36.92px;
     }
     .container_company-users img:nth-of-type(4) {
         width: 69.71px;
