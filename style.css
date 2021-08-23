@@ -216,7 +216,10 @@ body, * {
     color: #18216D;
     margin-top: 6px;
 }
-
+.rating__group label,
+.downloads__group label {
+    display: none;
+}
 /*------company-users------*/
 .container_company-users {
     display: flex;
