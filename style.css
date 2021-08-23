@@ -168,12 +168,7 @@ body, * {
     height: 1.02em;
     width: 1.2em;
 }
-.downloads__group label {
-    position: absolute;
-    height: 5px;
-    width: 5px;
-    display: none;
-    }
+
 .active-downloads__description li:nth-of-type(1) {
     font-family: Inter;
     font-style: normal;
@@ -201,12 +196,6 @@ body, * {
     height: 1.2em;
     width: 1.24em;
 }
-.rating__group label {
-    position: absolute;
-    height: 5px;
-    width: 5px;
-    display: none;
-    }
 
 .rating__description li:nth-of-type(1) {
     font-family: Inter;
