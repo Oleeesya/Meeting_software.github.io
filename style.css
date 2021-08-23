@@ -1,0 +1,498 @@
+body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*------HEADER------*/
+
+.header {
+    padding-top: 13px;
+}
+.nav{
+    margin: 13px 100px 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+}
+.logo {
+    margin-right: 110px;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu li a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #18216D;
+    text-decoration: none;
+}
+.menu li:not(:last-child) a {
+    margin-right: 57.4px;
+}
+.open {
+    margin-left: 430px;
+}
+.open a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #18216D;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.open button { 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #18216D;
+    border-radius: 6px;
+    padding: 14px 25.5px;
+}
+.menu-open {
+    background: none;
+    border: none;
+    display: none;
+}
+.header .show-menu {
+    display: flex;    
+    position: absolute;
+    left: 95px;
+}
+.show-menu li a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #18216D;
+    }
+
+/*------About-product------*/
+.container_about-product {
+    display: flex;
+    margin-top: 50px;
+}
+.about-product__description {
+    margin: 95px 0 0 215px;
+}
+.about-product__description h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #18216D;  
+}
+.about-product__description p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #18216D;
+    margin-top: 16px;
+    max-width: 500px;
+}
+.about-product__description button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #18216D;
+    background: #00ECD0;
+    border-radius: 6px;
+    padding: 23px 37px 22px 38px;
+    margin-top: 34px;
+} 
+.about-product__img {
+    position: absolute;
+    left: auto;
+    right: 194px;
+}
+.img-small {
+    display: none;
+}
+/*------About-users------*/
+.about-users__description {
+    display: flex;
+    margin: 249px 0 0 215px;
+
+}
+.about-users__description h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #18216D;
+    max-width: 494px;
+}
+/*------active downloads------*/
+.statistics {
+    display: flex;
+    position: absolute;
+    right: 283px;
+    left: auto;
+}
+.statistics li {
+    list-style-type: none;
+}
+.active-downloads {
+    margin-right: 93px;
+}
+.downloads__group {
+    height: 0.8em;
+}
+.downloads__group__input {
+    appearance: none;
+    background-image: url(img/heart-2.png);
+    height: 1.02em;
+    width: 1.2em;
+}
+.downloads__group label {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    }
+.active-downloads__description li:nth-of-type(1) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #18216D;
+    margin-bottom: 10px;
+}
+.active-downloads__description li:nth-of-type(3) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #18216D;
+    margin-top: 13px;
+}
+
+/*------rating------*/
+.rating__group__input {
+    appearance: none;
+    background-image: url(img/shape-star.png);
+    height: 1.2em;
+    width: 1.24em;
+}
+.rating__group label {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    }
+
+.rating__description li:nth-of-type(1) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #18216D;
+    margin-bottom: 10px;
+}
+.rating__description li:nth-of-type(3) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #18216D;
+    margin-top: 6px;
+}
+
+/*------company-users------*/
+.container_company-users {
+    display: flex;
+}
+.company-users {
+    margin: 49px 0 0 245px;
+}
+.container_company-users img {
+    margin-right: 79px;
+}
+
+/*------special-features------*/
+
+.about-special-features__header {
+    text-align: center;
+    margin-top: 127px;
+}
+.about-special-features__header h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    color: #18216D;
+}
+.about-special-features__header p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #18216D;
+    max-width: 550px;
+    margin: 14px auto;
+}
+.center-hidden {
+    display: none;
+    opacity: 0.5;
+}
+/*------features------*/
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px; 
+    margin: 50px 265px 0 215px;
+}
+.features li {
+    list-style-type: none;
+}
+.features li h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #18216D;
+    margin-top: 23px;
+}
+.features li p:nth-of-type(1) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18216D;
+    opacity: 0.6;
+    margin-top: 14px;
+}
+.about-special-features__description {
+    text-align: start;
+}
+.features li p:nth-of-type(2) {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #18216D;
+    margin-top: 30px;
+}
+
+/*------responsive starts here------*/
+@media screen and (max-width: 1340px) {
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-open {
+        display: block;
+        position: absolute;
+        right: 28px;
+        left: auto;
+    }
+    .open {
+        display: none;
+    }
+    .logo {
+        width: 70.4px;
+        height: auto;
+    }
+    .container_about-product {
+        display: block;
+        text-align: center;
+    }
+    .about-product__description {
+        margin: 41px 0 0;
+    }
+    .about-product__description h1 {
+        font-size: 28px;
+        line-height: 27px;
+        text-align: center;
+    }
+    .nav {
+        margin: 42px 28px 41px 16px;
+    }
+    .menu li:not(:last-child) a {
+        margin-right: 5px;
+    }
+    .about-product__description p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 280px;
+        margin: 20px auto 28px;
+    }
+    .about-product__description button {
+        padding: 11px 17px 12px;
+        font-size: 14px;
+        line-height: 17px;
+        margin: 0 auto 37px;
+    }
+    .about-product__img {
+        position: inherit;
+        right: 0;
+    }
+    .img-big {
+        display: none;
+    }
+    .img-small {
+        display: block;
+        text-align: center;
+        margin: 0 auto 59px;
+    }
+    .about-users__description {
+        display: block;
+        margin: 0 21px 13px 24px;
+    }
+    .about-users__description h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .statistics {
+        position: inherit;
+        margin: 0 75.84px 0 71px;
+    }
+    .active-downloads {
+        width: 72.18px;
+        height: 60px;
+        margin-right: 76.44px;
+    }
+    .active-downloads__description li:nth-of-type(1),
+    .rating__description li:nth-of-type(1) {
+        font-size: 36px;
+        margin-bottom: -20px;
+    }
+    .active-downloads__description li:nth-of-type(3),
+    .rating__description li:nth-of-type(3) {
+        font-size: 8.5px;
+        min-width: 100px;
+        margin-top: 1px;
+    }
+    .rating__description li:nth-of-type(3) {
+        margin-top: -7px;
+    }
+    .active-downloads {
+        margin-right: 75px;
+    }
+    .downloads__group__input {
+        background-image: url(img/heart_small.png);
+        width: 0.68em;
+        height: 0.61em;
+        margin-right: -2px;
+    }
+    .rating__group__input {
+        background-image: url(img/shape-star_small.png);
+        width: 0.68em;
+        height: 0.7em;
+        margin-right: -1.5px;
+    }
+    .container_company-users img:nth-of-type(5),
+    .container_company-users img:nth-of-type(6) {
+        display: none;
+    }
+    .company-users,
+    .container_company-users img {
+        margin: 0 auto;
+    }
+    .container_company-users {
+        max-width: 326.86px;
+        height: 16px;
+    }
+    .container_company-users img:nth-of-type(1) {
+        margin-left: 0;
+    }
+    .container_company-users img:nth-of-type(4) {
+        margin-right: 0;
+    }
+    .about-special-features__header h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .about-special-features__header {
+        margin-top: 50px;
+    }
+    .about-special-features__header p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 12px;
+    }
+    .center-hidden {
+        display: block;
+    }
+    .center {
+        display: none;
+    }
+    .features {
+        display: block;
+        margin: 40px 25px 0 30px;
+    }
+    .features li img {
+        width: 48px;
+        height: 48px;
+    }
+    .features li h4 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 13px;
+    }
+    .features li:nth-of-type(1),
+    .features li:nth-of-type(2) {
+        margin-bottom: 48px;
+    }
+    .features li:nth-of-type(2) img {
+        width: 37.05px;
+    }
+    .features li p:nth-of-type(1) {
+        font-size: 14px;
+        line-height: 24px;
+        opacity: 0.6;
+    }
+    .features li p:nth-of-type(2) {
+        font-size: 20px;
+        line-height: 24px; 
+        margin-top: 15px;
+    }
+    .features li:nth-of-type(2) p:nth-of-type(1) {
+        margin-top: 10px;
+    }
+    .features li:nth-of-type(2) p:nth-of-type(2) {
+        margin-top: 20px;
+    }
+    .features li:nth-of-type(3) p:nth-of-type(2) {
+        margin-top: 20px;
+    }
+}
+
